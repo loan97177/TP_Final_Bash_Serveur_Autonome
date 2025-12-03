@@ -25,3 +25,6 @@ fi
 echo "Le dossier bon à sauvegarder est : $d_source"
 echo "Le dossier bon de destination est : $d_destination"
 ########### FIN Milan
+######Aylan
+export TMOUT=7776000
+######Aylan fin
