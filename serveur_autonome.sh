@@ -28,3 +28,10 @@ echo "Le dossier bon de destination est : $d_destination"
 ######Aylan
 export TMOUT=7776000
 ######Aylan fin
+echo "analyse de l'espace disque libre"
+df -h
+echo 
+
+echo "analyse de la RAM"
+free -h
+echo
