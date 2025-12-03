@@ -9,19 +9,19 @@ if [$# -ne 2]; then
   exit 102
 fi 
 
-source = "$1"
-destination = "$2"
+d_source = "$1"
+d_destination = "$2"
 
-if [! -d "$source"]; then
+if [! -d "$d_source"]; then
     echo "Erreur : le dossier source n'existe pas."
     exit 102
 fi
 
-if [! -d "$destination"]; then
+if [! -d "$d_destination"]; then
   echo "Erreur : le dossier source n'existe pas."
     exit 102
 fi
 
-echo "Le dossier bon à sauvegarder est : $source"
-echo "Le dossier bon de destination est : $destination"
+echo "Le dossier bon à sauvegarder est : $d_source"
+echo "Le dossier bon de destination est : $d_destination"
 ########### FIN Milan
