@@ -3,7 +3,7 @@ LOG_FILE="/var/log/maintenance/maintenance_$(date +%Y%m%d_%H%M%S).log"
 
 
 
-
+########### Milan
 if [$# -ne 2]; then
   echo "Erreur, il doit y avoir 2 arguments."
   exit 102
@@ -24,3 +24,4 @@ fi
 
 echo "Le dossier bon à sauvegarder est : $source"
 echo "Le dossier bon de destination est : $destination"
+########### FIN Milan
